@@ -1,2 +1,2 @@
 # Hackaton-2
-mi pero para el reto de hackatomn
+mi primera repo para el hackaton
