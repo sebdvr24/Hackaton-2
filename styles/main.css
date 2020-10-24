@@ -145,57 +145,61 @@ main .clientes ul {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 30px;
+}  
+
+/*Contacto*/
+
+.contacto{
+    background-color: #1687A0;
+    height: 578px;
+    text-align: center;
 }
 
-main .contacto {
-    background-color: rgb(22, 135, 160);
-    justify-content: center;
-}    
-
-main .contacto h2 {
-    color: red;
+.contacto{
+    color: #FF1B1B;
 }
 
-main .contacto .contotal {
+.contacto div{
     display: flex;
-    justify-content: space-evenly;
+    width: 792px;
+    margin: 0px 109px 33px 109px;
+    justify-content: space-between;
 }
 
-
-main .contacto h3 {
-    padding: 15px;
-    background-color: rgb(22, 135, 160);
+.contacto input{
+    width: 363px;
+    margin-right: 33px;
+    height: 59px;
+    font-size: 14px;
 }
 
-main .contacto .conizquierda div {
-    width: 360px;
-    padding: 20px;
-    background-color: white;
-    color: gray;
+.contacto textarea{
+    width: 759px;
+    height: 112px;
+    font-size: 14px;
 }
 
-main .contacto .conderecha div {
-    width: 360px;
-    padding: 20px;
-    background-color: white;
-    color: gray;
-}
-
-main .contacto .descripcion {
-    width: 796px;
-    height: 150px;
-    padding: 20px;
-    background-color: white;
-    color: grey;
-    margin: auto;
-}
-
-main .contacto button {
-    margin-left: 40%;
-    margin-top: 30px;
-    width: 150px;
-    height: 50px;
+.contacto button{
+    text-decoration: none;
     background-color: #233451;
     color: white;
-    font-size: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 176px;
+    height:56px;
+    border: none;
+}
+
+/*Validaciones*/
+
+input:focus:invalid{
+    outline: none;
+    border: 3px solid rgba(255,0,0,0.5);
+    background-color: rgba(255,0,0,0.2);
+}
+
+input:focus:valid{
+    outline: none;
+    border: 3px solid rgb(100, 149, 237);
+    background-color: rgb(100, 149, 237,0.2);
 }
