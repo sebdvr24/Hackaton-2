@@ -39,17 +39,23 @@ main .principal p {
     position: absolute;
     left: 63px;
     top: 308px;
-    width: 300px;
+    width: 361px;
     height: 97px;
     font-size: 36px;
     font-weight: bold;
     background-color: rgba(26, 170, 241, 0.5);
     border-radius: 10px;
-    padding: 10px;
+    padding: 10px; 
+    line-height: 42px;
 }
 
 main .about{
-    background-color: lightskyblue;
+    background-color: #7299FE;  
+    font-size: 14px;
+    line-height: 24px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal; 
 }
 
 main .about h2 {
@@ -120,11 +126,11 @@ main .portafolio h2 {
 }
 
 main .portafolio a {
-    padding: 5px;
+    padding: 30px;
 }
 
 main .portafolio ul {
-    padding: 5px;
+    padding: 30px;
 }
 
 main .clientes {
